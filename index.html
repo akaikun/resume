@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梁拼个人作品集 | Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">22计科三班梁拼</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to My 个人简介</h1>
+            <p class="lead">全栈开发工程师 / UI设计师 / 创新者</p>
+            <a href="#contact" class="cta-button">联系我</a>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>这里是你的个人简介。描述你的专业背景、兴趣爱好和职业目标。</p>
+                    <p>展示你的个性和专业能力，让访客更好地了解你。</p>
+                </div>
+                <div class="about-image">
+                    <img 
+                    src="images/touxiang.jpg" 
+                    alt="梁拼的个人照片" 
+                    width="400" 
+                    height="400"
+                    class="profile-photo"
+                >
+                    <div class="profile-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web 开发</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>移动开发</h3>
+                    <p>React Native, Flutter</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>后端开发</h3>
+                    <p>Node.js, Python, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX 设计</h3>
+                    <p>Figma, Adobe XD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示部分 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目展示</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>在线教育平台</h3>
+                    <p>技术栈
+
+                        前端：Vue.js + Element UI + Axios
+                        后端：Django REST Framework（Python）
+                        数据库：MySQL + Redis缓存
+                        部署：Nginx + Docker</p>
+                    <a href="#" class="project-link">了解更多</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>智能酒店管理系统</h3>
+                    <p>技术栈
+
+                        前端：React + Ant Design
+                        后端：Spring Boot（Java） + MyBatis
+                        数据库：PostgreSQL + Elasticsearch
+                        中间件：RabbitMQ消息队列</p>
+                    <a href="#" class="project-link">了解更多</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <h3>社区医疗服务平台</h3>
+                    <p>技术栈
+
+                        前端：Flutter Web + Dart
+                        后端：Node.js（Express.js） + GraphQL
+                        数据库：MongoDB（文档存储） + Neo4j（知识图谱）
+                        安全：JWT + OAuth2.0</p>
+                    <a href="#" class="project-link">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>210521841@qq.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p>github.com/liangpin</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>linkedin.com/in/liangpin</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="你的名字" required>
+                    <input type="email" placeholder="你的邮箱" required>
+                    <textarea placeholder="你的消息" required></textarea>
+                    <button type="submit" class="submit-button">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
